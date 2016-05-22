@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 718.0, 45.0, 792.0, 864.0 ],
+		"rect" : [ 38.0, 112.0, 792.0, 864.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 718.0, 45.0, 792.0, 864.0 ],
+		"defrect" : [ 38.0, 112.0, 792.0, 864.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -25,6 +25,22 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "comment",
+					"text" : "set driver to your interface",
+					"linecount" : 2,
+					"patching_rect" : [ 252.0, 828.0, 87.0, 34.0 ],
+					"presentation" : 1,
+					"fontname" : "Arial",
+					"id" : "obj-67",
+					"numinlets" : 1,
+					"fontsize" : 12.0,
+					"numoutlets" : 0,
+					"presentation_rect" : [ 319.0, 728.0, 153.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"maxclass" : "textbutton",
 					"outlettype" : [ "", "", "int" ],
@@ -47,7 +63,7 @@
 					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : 12.0,
 					"numoutlets" : 3,
-					"presentation_rect" : [ 314.754089, 728.637268, 27.0, 18.0 ],
+					"presentation_rect" : [ 286.754089, 729.637268, 27.0, 18.0 ],
 					"texton" : "pause"
 				}
 
@@ -70,17 +86,19 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "comment",
-					"text" : "Toggle On only if you need to set your IP manually",
+					"text" : "Toggle On only if you need to set your IP manually (Java error)",
 					"linecount" : 3,
-					"presentation_linecount" : 3,
+					"presentation_linecount" : 4,
+					"frgb" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 					"patching_rect" : [ 1109.0, 146.0, 142.0, 48.0 ],
 					"presentation" : 1,
 					"fontname" : "Arial",
+					"textcolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 					"id" : "obj-66",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 77.0, 64.0, 114.0, 48.0 ]
+					"presentation_rect" : [ 61.0, 57.0, 114.0, 62.0 ]
 				}
 
 			}
@@ -94,7 +112,7 @@
 					"id" : "obj-62",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"presentation_rect" : [ 47.0, 78.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 36.0, 78.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -317,7 +335,7 @@
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 234.0, 59.0, 117.0, 20.0 ]
+					"presentation_rect" : [ 215.0, 59.0, 117.0, 20.0 ]
 				}
 
 			}
@@ -354,7 +372,7 @@
 					"numinlets" : 1,
 					"fontsize" : 16.0,
 					"numoutlets" : 3,
-					"presentation_rect" : [ 233.0, 82.0, 330.0, 25.0 ]
+					"presentation_rect" : [ 216.0, 82.0, 330.0, 25.0 ]
 				}
 
 			}
@@ -369,7 +387,7 @@
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 590.0, 59.0, 134.0, 20.0 ]
+					"presentation_rect" : [ 572.0, 59.0, 134.0, 20.0 ]
 				}
 
 			}
@@ -384,7 +402,7 @@
 					"id" : "obj-111",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"presentation_rect" : [ 597.0, 81.0, 28.0, 28.0 ]
+					"presentation_rect" : [ 579.0, 81.0, 28.0, 28.0 ]
 				}
 
 			}
@@ -756,7 +774,7 @@
 					"fontface" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 0,
-					"presentation_rect" : [ 311.0, 750.0, 177.0, 34.0 ]
+					"presentation_rect" : [ 281.0, 755.0, 177.0, 34.0 ]
 				}
 
 			}
@@ -1746,7 +1764,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "textedit",
-									"text" : "10.1.85.345.24",
+									"text" : "192.68.0.10",
 									"outlettype" : [ "", "int", "", "" ],
 									"patching_rect" : [ 469.0, 78.0, 130.0, 43.0 ],
 									"fontname" : "Arial",
@@ -2319,9 +2337,10 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "host 192.168.0.9",
+									"text" : "host 192.168.0.10",
+									"linecount" : 2,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 490.864746, 497.964661, 83.0, 16.0 ],
+									"patching_rect" : [ 490.864746, 497.964661, 83.0, 27.0 ],
 									"fontname" : "Arial",
 									"id" : "obj-91",
 									"numinlets" : 2,
@@ -2790,10 +2809,9 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "host 192.168.0.10",
-									"linecount" : 2,
+									"text" : "host 192.168.0.9",
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 138.25, 881.900146, 102.0, 32.0 ],
+									"patching_rect" : [ 138.25, 881.900146, 102.0, 18.0 ],
 									"fontname" : "Arial",
 									"id" : "obj-74",
 									"numinlets" : 2,
@@ -2899,10 +2917,9 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "host 192.168.0.10",
-									"linecount" : 2,
+									"text" : "host 192.168.0.9",
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 266.25, 880.900146, 102.0, 32.0 ],
+									"patching_rect" : [ 266.25, 880.900146, 102.0, 18.0 ],
 									"fontname" : "Arial",
 									"id" : "obj-16",
 									"numinlets" : 2,
@@ -3011,10 +3028,9 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "host 192.168.0.10",
-									"linecount" : 2,
+									"text" : "host 192.168.0.9",
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 395.25, 880.900146, 102.0, 32.0 ],
+									"patching_rect" : [ 395.25, 880.900146, 102.0, 18.0 ],
 									"fontname" : "Arial",
 									"id" : "obj-24",
 									"numinlets" : 2,
@@ -3081,10 +3097,9 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "host 192.168.0.10",
-									"linecount" : 2,
+									"text" : "host 192.168.0.9",
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 509.25, 880.900146, 102.0, 32.0 ],
+									"patching_rect" : [ 509.25, 880.900146, 102.0, 18.0 ],
 									"fontname" : "Arial",
 									"id" : "obj-32",
 									"numinlets" : 2,
@@ -3215,10 +3230,9 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "host 192.168.0.10",
-									"linecount" : 2,
+									"text" : "host 192.168.0.9",
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 644.25, 880.900146, 102.0, 32.0 ],
+									"patching_rect" : [ 644.25, 880.900146, 102.0, 18.0 ],
 									"fontname" : "Arial",
 									"id" : "obj-43",
 									"numinlets" : 2,
@@ -3282,7 +3296,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "192.168.0.10",
+									"text" : "192.168.0.9",
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 27.25, 746.400146, 100.0, 18.0 ],
 									"fontname" : "Arial",
@@ -3296,7 +3310,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "dwingus",
+									"text" : "smith",
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.25, 747.400146, 100.0, 18.0 ],
 									"fontname" : "Arial",
@@ -3534,7 +3548,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"text" : "host 192.168.0.9",
+									"text" : "host 192.168.0.10",
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 192.0, 1009.0, 103.0, 16.0 ],
 									"fontname" : "Arial",
@@ -7958,7 +7972,7 @@
 					"maxclass" : "panel",
 					"patching_rect" : [ 378.0, 767.0, 80.0, 70.0 ],
 					"presentation" : 1,
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"bgcolor" : [ 1.0, 0.605313, 0.363188, 0.5 ],
 					"id" : "obj-157",
 					"numinlets" : 1,
 					"numoutlets" : 0,
