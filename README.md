@@ -6,7 +6,7 @@ piece for bitpanic ensemble for dogstar 2016.
 
 ## Requirements:
 * Max 5, 6 or 7
-* Audio interface with a minimum of two inputs and two outputs
+* Audio interface with two inputs and outputs
 * One speaker
 * One extra audio cable to send your output 1 to someone else.
 * Your “sound.” Prepare to make either a "noisy" sound or "drone/ambient" sound. This can be done via audio input or looped sample. 
