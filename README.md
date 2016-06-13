@@ -1,7 +1,7 @@
 # shove-dominate
 piece for bitpanic ensemble for dogstar 2016.
 
-Run: sixthversion-plain.maxpat
+Run: shove-dominate.maxpat
 
 Requires:
 * Max 5, 6 or 7
