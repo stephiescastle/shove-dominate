@@ -1,4 +1,4 @@
-# shove-dominate
+# SHOVE / DOMINATE
 piece for bitpanic ensemble for dogstar 2016.
 
 1. Download entire project
