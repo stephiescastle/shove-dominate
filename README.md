@@ -9,7 +9,7 @@ piece for bitpanic ensemble for dogstar 2016.
 * Audio interface with two inputs and outputs
 * One speaker
 * One extra audio cable to send your output 1 to someone else.
-* Your “sound.” Prepare to make either a "noisy" sound or "drone/ambient" sound. This can be done via audio input or looped sample. 
+* Your “sound.” See assignments below. This can be done via audio input or looped sample. 
   * Casey: noisy
   * Clay: noisy
   * David: drone/ambient
