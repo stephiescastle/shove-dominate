@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 139.0, 118.0, 1058.0, 877.0 ],
+		"rect" : [ 236.0, 93.0, 1058.0, 877.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3536,7 +3536,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 36.0, 238.300293, 115.0, 35.0 ],
 									"style" : "",
-									"text" : "/hostip 10.0.1.3 sym"
+									"text" : "/hostip 10.0.1.3 smith"
 								}
 
 							}
@@ -6071,9 +6071,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 221.0, 414.0, 59.0, 22.0 ],
+									"patching_rect" : [ 221.0, 414.0, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "clocker 1"
+									"text" : "clocker 20"
 								}
 
 							}
@@ -8693,9 +8693,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 284.0, 457.0, 59.0, 22.0 ],
+									"patching_rect" : [ 284.0, 457.0, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "clocker 1"
+									"text" : "clocker 20"
 								}
 
 							}
@@ -9589,7 +9589,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 0.000002, 0.000001, 0.5 ],
+					"bgcolor" : [ 1.0, 0.510518, 0.306311, 0.5 ],
 					"id" : "obj-157",
 					"maxclass" : "panel",
 					"mode" : 0,
