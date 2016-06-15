@@ -3536,7 +3536,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 36.0, 238.300293, 115.0, 35.0 ],
 									"style" : "",
-									"text" : "/hostip 10.0.1.3 smith"
+									"text" : "/hostip 10.0.1.3 sym"
 								}
 
 							}
@@ -6073,7 +6073,7 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 221.0, 414.0, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "clocker 20"
+									"text" : "clocker 5"
 								}
 
 							}
@@ -8695,7 +8695,7 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 284.0, 457.0, 73.0, 22.0 ],
 									"style" : "",
-									"text" : "clocker 20"
+									"text" : "clocker 5"
 								}
 
 							}
@@ -9589,7 +9589,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 0.510518, 0.306311, 0.5 ],
+					"bgcolor" : [ 1.0, 0.486407, 0.291844, 0.5 ],
 					"id" : "obj-157",
 					"maxclass" : "panel",
 					"mode" : 0,
