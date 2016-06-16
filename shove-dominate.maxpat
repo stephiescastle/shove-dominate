@@ -70,16 +70,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-208",
-					"linecount" : 12,
+					"linecount" : 14,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 746.5, 921.0, 199.0, 194.0 ],
+					"patching_rect" : [ 746.5, 921.0, 199.0, 225.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 12,
-					"presentation_rect" : [ 848.0, 374.25, 194.0, 194.0 ],
+					"presentation_linecount" : 14,
+					"presentation_rect" : [ 848.0, 374.25, 194.0, 225.0 ],
 					"style" : "",
-					"text" : "Fade in\n\nDo nothing\n\nSlowly move Knob 8 all the way to the right. \n\nShove, increasing rate from very slow to very fast\n\nHard cut \n(master all the way down)"
+					"text" : "Fade in\n\nDo nothing\n\nSlowly move Knob 8 all the way to the right. \n\nShove, increasing rate from very slow to very fast\n\nKeep shoving rapidly\n\nHard cut \n(master all the way down)"
 				}
 
 			}
@@ -87,16 +87,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-207",
-					"linecount" : 11,
+					"linecount" : 13,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 731.5, 906.0, 199.0, 179.0 ],
+					"patching_rect" : [ 731.5, 906.0, 199.0, 210.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 11,
-					"presentation_rect" : [ 805.0, 374.25, 44.0, 179.0 ],
+					"presentation_linecount" : 13,
+					"presentation_rect" : [ 805.0, 374.25, 47.0, 210.0 ],
 					"style" : "",
-					"text" : "0 - 1\n\n1 - 2\n\n2 - 11\n\n\n\n\n\n12"
+					"text" : "0 - 1\n\n1 - 2\n\n2 - 11\n\n\n\n\n\n11-12\n\n12"
 				}
 
 			}
@@ -214,7 +214,7 @@
 					"patching_rect" : [ 937.0, 686.0, 143.0, 154.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 885.0, 672.96106, 139.0, 154.0 ],
+					"presentation_rect" : [ 885.0, 672.96106, 141.0, 154.0 ],
 					"style" : "",
 					"text" : "Input Partner gain\n\nYour input gain\n\nMaster output gain\n\nShove\n\nReset flux if it gets stuck\n\nPiece Progress",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
@@ -250,7 +250,7 @@
 					"patching_rect" : [ 977.0, 735.0, 106.0, 154.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 810.0, 672.96106, 71.0, 154.0 ],
+					"presentation_rect" : [ 810.0, 672.96106, 94.0, 154.0 ],
 					"style" : "",
 					"text" : "Slider 1   =\n\nSlider 2   =\n\nSlider 3   =\n\nButton 8  =\n\nKnob 7    =       \n     \nKnob 8    =",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
@@ -9654,7 +9654,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 0.518056, 0.310834, 0.5 ],
+					"bgcolor" : [ 1.0, 0.508949, 0.305369, 0.5 ],
 					"id" : "obj-157",
 					"maxclass" : "panel",
 					"mode" : 0,
