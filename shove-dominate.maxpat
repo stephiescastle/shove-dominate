@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 328.0, 79.0, 1058.0, 877.0 ],
+		"rect" : [ 143.0, 86.0, 1058.0, 877.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 402.0, 818.0, 19.0, 20.0 ],
 					"style" : "",
-					"text" : "1'",
+					"text" : "2'",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -79,7 +79,7 @@
 					"presentation_linecount" : 14,
 					"presentation_rect" : [ 848.0, 374.25, 194.0, 225.0 ],
 					"style" : "",
-					"text" : "Fade in\n\nDo nothing\n\nSlowly move Knob 8 all the way to the right. \n\nShove, increasing rate from very slow to very fast\n\nKeep shoving rapidly\n\nHard cut \n(master all the way down)"
+					"text" : "Fade in\n\nDo nothing\n\nSlowly move Knob 8 all the way to the right. \n\nShove, increasing rate from very slow to very fast\n\nKeep shoving rapidly\n\nLook for Steph for Hard cut \n(master all the way down)"
 				}
 
 			}
@@ -286,7 +286,7 @@
 					"presentation_linecount" : 10,
 					"presentation_rect" : [ 805.0, 45.0, 233.0, 163.0 ],
 					"style" : "",
-					"text" : "1. Set your name\n2. Broadcast\n3. Select Input Partner\n4. Select Output Partner\n5. Turn on DAC\n6. Set Input Partner gain\n7. Set your input gain\n8. Set master gain\n9. Jiggle last knob and set\n    to 0 (fully left)"
+					"text" : "1. Set your name\n2. Broadcast\n3. Select Input Partner\n4. Select Output Partner\n5. Turn on DAC\n6. Set Input Partner gain\n7. Set your input gain\n8. Set master gain\n9. Jiggle knob 8 and set\n    to 0 (fully left)"
 				}
 
 			}
@@ -3601,7 +3601,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 36.0, 238.300293, 115.0, 35.0 ],
 									"style" : "",
-									"text" : "/hostip 10.0.1.3 sym"
+									"text" : "/hostip 10.0.1.3 smith"
 								}
 
 							}
@@ -9654,7 +9654,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 0.508949, 0.305369, 0.5 ],
+					"bgcolor" : [ 1.0, 0.480044, 0.288026, 0.5 ],
 					"id" : "obj-157",
 					"maxclass" : "panel",
 					"mode" : 0,
